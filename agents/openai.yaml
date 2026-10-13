@@ -1,0 +1,4 @@
+interface:
+  display_name: "CapCut ORE Motion Brand"
+  short_description: "Motion graphics de marca y revisión visual en CapCut"
+  default_prompt: "Usa $capcut-ore-motion-brand para crear o corregir motion graphics de marca en CapCut y verificar su exportación."
