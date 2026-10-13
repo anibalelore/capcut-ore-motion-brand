@@ -1,6 +1,6 @@
 # CapCut ORE Motion Brand
 
-Skill para Codex que guía la creación y revisión de motion graphics de marca en **CapCut**. Complementa herramientas como CapCutKit con dirección tipográfica, protección del logo, composición, movimiento y comprobación de la exportación.
+Skill para Codex que guía la creación y revisión de motion graphics de marca en **CapCut**. Complementa herramientas como CapCutKit con dirección tipográfica, protección del logo, composición, movimiento y comprobación de la exportación. Versión **1.1.0**, en español.
 
 No sustituye el editor, no garantiza calidad por estar instalada y no incluye una integración/API de ElevenLabs. Las reglas confirmadas de eQatu están separadas del perfil ORE, cuyo manual debe incorporarse desde el proyecto.
 
@@ -33,6 +33,10 @@ La skill se puede seleccionar automáticamente cuando una tarea relevante lo req
 - `references/brand-profiles.md`: reglas confirmadas y límites de conocimiento por marca.
 - `references/native-capcut.md`: guardado seguro, medidas, fuentes, proporciones, audio local y exportación.
 - `references/motion-review.md`: dirección visual, voz, mezcla y revisión con evidencia.
+- `references/production-direction.md`: brief, sistema tipográfico, timing, recetas nativas y evaluación interna de calidad.
+- `references/capcut-shot-template.md`: especificación ejecutable por plano; no es un archivo CapCut importable.
+- `references/standards-and-sources.md`: Material Design, Figma, School of Motion, documentación CapCut y referencias WCAG.
+- `examples/spot-30s-example.md`: plan orientativo de seis escenas; no representa un video ya ejecutado.
 - `scripts/audit_draft.py`: auditoría estructural de solo lectura; Python 3.10+, sin dependencias externas.
 
 ```text

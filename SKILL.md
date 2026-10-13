@@ -1,6 +1,9 @@
 ---
 name: capcut-ore-motion-brand
-description: Crear, corregir y revisar motion graphics publicitarios de marca en CapCut, con tipografía comprobada, logos protegidos y exportaciones verificadas. Usar para ORE, eQatu y otras marcas con reglas suministradas; no sustituye CapCut por otro editor.
+description: Diseñar, dirigir y auditar motion graphics publicitarios para CapCut Desktop: anuncios animados, kinetic typography, UI y videos de marca, con dirección de arte, storyboard, recetas de capas y keyframes y revisión de exportación. Prioriza CapCut y las reglas de marca suministradas.
+metadata:
+  version: "1.1.0"
+  language: "es"
 ---
 
 # CapCut ORE Motion Brand
@@ -13,6 +16,16 @@ Producir un proyecto nativo de CapCut con dirección visual coherente y evidenci
 - Reanudar el proyecto existente y preservar ediciones manuales. Usar CapCutKit si está disponible; no instalarlo ni cambiar el entorno por el solo hecho de activar esta skill.
 - Leer [marca y perfiles](references/brand-profiles.md) al trabajar con ORE/eQatu o incorporar un manual. Las reglas de eQatu no son reglas de ORE.
 - Leer [operación nativa](references/native-capcut.md) antes de escribir borradores o diagnosticar fuentes, proporciones o keyframes. Para calidad visual/audio leer [dirección y revisión](references/motion-review.md).
+- Para una pieza nueva o rediseño sustancial, leer [dirección de producción](references/production-direction.md) y usar [receta por plano](references/capcut-shot-template.md). Para un ajuste puntual, conservar el plan aprobado y actualizar lo afectado.
+- Consultar [fuentes y estándares](references/standards-and-sources.md) al justificar criterios técnicos o comprobar capacidades. Los ejemplos de After Effects y Figma son referencias de calidad; traducirlos a operaciones verificadas en CapCut, no prometer equivalencia de herramientas.
+
+## Plan ejecutable
+
+Antes de producir, preparar dirección de arte, guion/estructura A/V, storyboard y receta CapCut con tiempos y capas. Reutilizar los documentos aceptados de un proyecto existente. Si no hay acceso al editor, entregar planes y especificaciones: solo afirmar cambios o renders cuando se ejecutaron y comprobaron.
+
+Entregar seis apartados, con profundidad proporcional al pedido: brief resumido, dirección de arte, guion A/V y storyboard, plan de montaje por capas/keyframes, especificación de exportación y auditoría. En un storyboard, montaje y exportación pueden ser propuestas resumidas y QA debe indicar «propuesta»; no producir un video por pedir esos apartados. Las recetas son especificaciones, no archivos CapCut importables.
+
+Si faltan datos, declarar supuestos y preguntar solo por lo que bloquee. Valores iniciales opcionales: 9:16, 1080×1920, 30 fps, 30 s, español latinoamericano y dirección tech-editorial. No reemplazan formato, idioma, marca o guion ya elegidos.
 
 ## Decisiones de diseño
 
@@ -31,6 +44,8 @@ Dar a cada escena un foco y una acción que explique el mensaje. Elegir transici
 3. Verificar entradas, estados de lectura, salidas y empalmes. Examinar logos sin deformación, fondos correctos, fuentes reales, recortes, contraste y zonas seguras de la plataforma.
 4. Exportar localmente y revisar el archivo completo con sonido y muestras de cada escena. Abrir el borrador o aprobar un storyboard no valida el anuncio terminado.
 5. Corregir errores observados y exportar de nuevo lo necesario. Si voz, ritmo, fuentes o fidelidad de marca siguen sin comprobarse, describir el resultado como borrador y señalar lo pendiente.
+
+Aplicar PLAN → BUILD → PREVIEW → REVIEW → FIX → EXPORT → VERIFY. Usar la evaluación interna de [dirección de producción](references/production-direction.md): ≥90/100 y cero fallos críticos para considerarlo listo, solo sobre aspectos realmente comprobados. No inventar puntuaciones de escucha, móvil o exportación sin acceso. Una corrección local no exige rehacer todos los entregables ni pedir una aprobación nueva.
 
 `scripts/audit_draft.py <draft_content.json>` audita recursos, fuentes declaradas y keyframes sin modificar archivos. Sus advertencias orientan la inspección; un resultado sin advertencias no certifica apariencia ni audio.
 

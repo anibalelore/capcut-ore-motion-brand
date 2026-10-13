@@ -1,0 +1,13 @@
+# Fuentes y estándares
+
+Fuentes oficiales consultadas el 12 de octubre de 2026 (hora del usuario). Son fundamentos y documentación; no certifican el resultado. Los rangos de timing, margen y puntaje de esta skill son criterios internos de producción.
+
+- [Material Design — Motion](https://m3.material.io/styles/motion): la documentación actual introduce física de movimiento en M3 Expressive; no atribuir los rangos de esta skill a sus tokens. [Understanding motion, M2](https://m2.material.io/design/motion/understanding-motion.html) es referencia histórica y requiere JavaScript para lectura completa.
+- [Figma — Easing y springs](https://help.figma.com/hc/en-us/articles/360051748654-Prototype-easing-and-spring-animations) y [Smart animate](https://help.figma.com/hc/en-us/articles/360039818874-Smart-animate-layers-between-frames): duración, easing e interpolación de capas sirven para analizar continuidad. No implican los mismos controles en CapCut.
+- [School of Motion — Animation Bootcamp](https://schoolofmotion.com/courses/animation-bootcamp): enseña spacing, curvas, arcos, anticipación, overshoot y follow-through en After Effects. Adaptar esos principios a operaciones nativas disponibles, sin copiar recetas de interfaz AE.
+- [CapCut — Keyframes PC](https://www.capcut.com/resource/how-to-add-keyframes-in-capcut) y [limitaciones por tipo de clip](https://www.capcut.com/help/keyframes-in-capcut-pc): comprobar posición/escala/opacidad en el clip concreto.
+- [CapCut — uso del editor](https://www.capcut.com/resource/how-to-use-capcut) documenta speed curves de retiming; no confundirlas con easing de keyframes. [Motion blur](https://www.capcut.com/tools/motion-blur) describe la función; confirmar disponibilidad y licencia en la versión instalada.
+- [W3C WCAG 2.2 — Contraste mínimo](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html): 4.5:1 regular y 3:1 grande como objetivos editoriales; no conversión automática de unidades CapCut ni certificación del video. El criterio contiene excepciones como logotipos; respetar manual y legibilidad visual.
+- [W3C — Tres flashes o por debajo del umbral](https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html): hay límites técnicos de luminancia/área, además de frecuencia. Preferir evitar strobe; no afirmar seguridad por contar flashes sin analizar esos umbrales.
+
+Revisar documentación vigente cuando se dependa de interfaz, suscripción, licencia, región o safe zones. No asumir capacidad, precio o permiso comercial por una página de marketing o por la presencia de un asset en una biblioteca.
