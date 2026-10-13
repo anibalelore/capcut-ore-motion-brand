@@ -1,6 +1,6 @@
 ---
 name: capcut-ore-motion-brand
-description: Diseñar, dirigir y auditar motion graphics publicitarios para CapCut Desktop: anuncios animados, kinetic typography, UI y videos de marca, con dirección de arte, storyboard, recetas de capas y keyframes y revisión de exportación. Prioriza CapCut y las reglas de marca suministradas.
+description: "Diseñar, dirigir y auditar motion graphics publicitarios para CapCut Desktop: anuncios animados, kinetic typography, UI y videos de marca, con dirección de arte, storyboard, recetas de capas y keyframes y revisión de exportación. Prioriza CapCut y las reglas de marca suministradas."
 metadata:
   version: "1.1.0"
   language: "es"
